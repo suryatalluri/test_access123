@@ -62,7 +62,7 @@
     <bean class="com.wavemaker.runtime.security.WMAuthenticationFailureHandler" id="failureHandler"/>
     <bean class="com.wavemaker.runtime.security.WMSecurityConfigStore" id="WMSecurityConfigStore">
         <property name="enforceSecurity">
-            <value>true</value>
+            <value>false</value>
         </property>
         <property name="enforceIndexHtml">
             <value>true</value>
